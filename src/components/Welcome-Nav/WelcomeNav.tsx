@@ -9,7 +9,7 @@ import "./WelcomeNav.css";
 import { useHistory } from "react-router-dom";
 
 const WelcomeNav = (props:any) => {
-  const {toggle, signOut, searchBlog, setSearchBlog, handleChange} = props
+  const {toggle, signOut, handleChange} = props
   const history = useHistory();
 
   const showCreatePostPage = () => {

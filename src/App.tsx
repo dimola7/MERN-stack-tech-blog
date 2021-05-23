@@ -61,7 +61,7 @@ useEffect(() => {
     })
   }
 setArticles(copyArticles)
-}, [searchBlog]);
+}, [searchBlog, copyRes]);
 
      
   return (

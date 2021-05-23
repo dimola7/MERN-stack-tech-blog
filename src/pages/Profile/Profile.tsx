@@ -1,6 +1,5 @@
 import ProfileNav from "../../components/Welcome-Nav/WelcomeNav";
 import ProfileSidebar from "../../components/WelcomeSidebar/WelcomeSidebar";
-import profileHeader from "../../images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg"
 import Footer from "../../components/Footer/Footer";
 import "./Profile.css";
 
