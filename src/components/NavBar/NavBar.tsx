@@ -18,7 +18,7 @@ const navbar = (props: Props) => {
               alt="logo"
               style={{ width: "22px", margin: "auto", display: "inline-block" }}
             />
-            TechBlog
+            TekBlog
           </div>
           <div className="nav-burger" onClick={props.toggle}>
             <FaBars />

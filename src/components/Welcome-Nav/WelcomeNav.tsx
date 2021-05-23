@@ -27,7 +27,7 @@ const WelcomeNav = (props:any) => {
               style={{ width: "22px", margin: "auto", display: "inline-block" }}
             />
             <Link to="/welcome" className="back-home">
-              TechBlog
+              TekBlog
             </Link>
           </div>
       <div className="nav-burger" onClick={toggle}>

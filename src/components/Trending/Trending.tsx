@@ -32,7 +32,7 @@ const Trending = () => {
   return (
     <>
     <div className="trending">
-      <h3 className="trending-title">Trending on TechBlog</h3>
+      <h3 className="trending-title">Trending on TekBlog</h3>
       <div className="trending-container">
 
        {arr.reverse().slice(0,3).map((article, i) =>

@@ -40,7 +40,7 @@ setArticles(filtered)
     return (
         <>
         <h1 className="bookmarks-header">Bookmarks</h1>
-        <p className="bookmarks-desc">All the posts you have bookmarked on TechBlog.</p>
+        <p className="bookmarks-desc">All the posts you have bookmarked on TekBlog.</p>
          <div className="mobile-side">
             <h2>Write something...</h2>
             <button className="mobile-make-a-post">Make a post</button>

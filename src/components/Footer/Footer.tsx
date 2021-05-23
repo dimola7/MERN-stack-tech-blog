@@ -16,7 +16,7 @@ const Footer = () => {
             alt="logo"
             style={{ width: "22px", margin: "auto", display: "inline-block" }}
           />
-          TechBlog
+          TekBlog
           <div className="icons">
             <p>
               <a href="https://www.instagram.com/">
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="footer-grid-content">
           <h4>Contact Us</h4>
           <p>+234 (0) 1 3678 903 </p>
-          <p>contact@techblog.com </p>
+          <p>contact@tekblog.com </p>
           <p>1 Techi street, Victoria island, Lagos.</p>
         </div>
         <div className="footer-grid-content">
@@ -77,7 +77,7 @@ const Footer = () => {
           <p>Terms & Conditions</p>
         </div>
         <div className="footer-grid-content">
-          <h4>Subscribe to TechBlog</h4>
+          <h4>Subscribe to TekBlog</h4>
           <p>Subscribe to our news letter </p>
           <div>
             <input

@@ -13,20 +13,20 @@ const WelcomeAbout = (props: Props) => {
         <>
             <AboutSidebar toggle={props.toggle} isOpen={props.isOpen}/>
             <AboutNav  toggle={props.toggle}/>
-            <h1 className="about-header">About TechBlog</h1>
+            <h1 className="about-header">About TekBlog</h1>
             <div className="about-grid-container">
                 <div>
                     <img src={AboutSvg} alt="" />
                 </div>
                 <div>
-                    <h2>What is TechBlog?</h2>
+                    <h2>What is TekBlog?</h2>
                     <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dolores
                     sunt? Molestiae molestias quia ipsum quos!
                     </p>
                 </div>
                 <div>
-                    <h2>Why TechBlog?</h2>
+                    <h2>Why TekBlog?</h2>
                     <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dolores
                     sunt? Molestiae molestias quia ipsum quos!

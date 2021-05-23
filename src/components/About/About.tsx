@@ -8,14 +8,14 @@ const About = () => {
         <img src={AboutSvg} alt="" />
       </div>
       <div>
-        <h2>What is TechBlog?</h2>
+        <h2>What is TekBlog?</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dolores
           sunt? Molestiae molestias quia ipsum quos!
         </p>
       </div>
       <div>
-        <h2>Why TechBlog?</h2>
+        <h2>Why TekBlog?</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dolores
           sunt? Molestiae molestias quia ipsum quos!
