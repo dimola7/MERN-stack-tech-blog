@@ -1,0 +1,79 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css");
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.trending {
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-top: 7%;
+}
+.trending-title {
+  font-family: "Poppins", sans-serif;
+}
+.trending-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.trending .card-img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
+.trending .card-container {
+  max-width: 280px;
+  margin: 0 auto;
+}
+.trending .card {
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #bacdd8;
+}
+.trending .tag {
+  padding: 4px 8px;
+  border: #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  cursor: pointer;
+}
+.trending .blog-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.trending .description {
+  font-size: 14px;
+  color: #7f8c98;
+  line-height: 150%;
+  position: relative;
+  margin: 1rem 0 0;
+  height: 110px;
+  overflow: hidden;
+}
+.trending .card-button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+  margin: 0 auto;
+  display: block;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.card-button:focus,
+.card-button:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
+.trending .card-details {
+  padding: 16px 8px 8px 8px;
+}
+@media screen and (max-width: 480px) {
+  .trending-container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}

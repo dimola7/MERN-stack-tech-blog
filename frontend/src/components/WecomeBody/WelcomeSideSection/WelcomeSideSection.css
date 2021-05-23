@@ -1,0 +1,67 @@
+.welcome-side-section {
+    position: sticky;
+    top: 100px;
+}
+.welcome-side-section .trending-title {
+  font-family: "Poppins", sans-serif;
+}
+.welcome-side-section .card-container {
+  max-width: 280px;
+  margin: 0 auto;
+  box-shadow: 2px 10px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.welcome-side-section .card {
+  padding: 8px;
+  border-radius: 12px;
+}
+.welcome-side-section .tag {
+  padding: 4px 8px;
+  border: #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  cursor: pointer;
+}
+.welcome-side-section .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.welcome-side-section .description {
+  font-size: 14px;
+  color: #7f8c98;
+  line-height: 150%;
+}
+.welcome-side-section .card-details {
+  padding: 16px 8px 8px 8px;
+  max-width: 100%;
+}
+.popular-tags {
+  margin-bottom: 12px;
+}
+.top-blogger {
+  display: inline-block;
+  margin-left: 10px;
+}
+.make-a-post {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #6c63ff;
+  margin: 0 auto;
+  display: block;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.top-blogger-name{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1180px){
+    .welcome-side-section{
+        display: none;
+    }
+}

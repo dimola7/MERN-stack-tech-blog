@@ -1,0 +1,167 @@
+.side-section{
+    position: sticky;
+    top: 100px;
+}
+.article-container{
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .article-container .blog-title{
+      font-size: 32px;
+      margin-top: 2.5rem;
+  }
+ .article-container .card-img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    height: 400px;
+  }
+  .article-container .card-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+ .article-container .card {
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .article-container .description {
+    font-size: 17px;
+    color: #7f8c98;
+    line-height: 150%;
+  }
+
+.article-container .card-details {
+    font-size: 22px;
+    padding: 16px 8px 8px 8px;
+  }
+  .welcome-side-section {
+    position: sticky;
+    top: 100px;
+}
+.welcome-side-section .trending-title {
+  font-family: "Poppins", sans-serif;
+}
+.welcome-side-section .card-container {
+  max-width: 280px;
+  margin: 0 auto;
+  box-shadow: 2px 10px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.welcome-side-section .card {
+  padding: 8px;
+  border-radius: 12px;
+}
+.welcome-side-section .tag {
+  padding: 4px 8px;
+  border: #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  cursor: pointer;
+}
+.welcome-side-section .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.welcome-side-section .description {
+  font-size: 14px;
+  color: #7f8c98;
+  line-height: 150%;
+}
+.welcome-side-section .card-details {
+  padding: 16px 8px 8px 8px;
+  max-width: 100%;
+}
+.popular-tags {
+  margin-bottom: 12px;
+}
+.top-blogger {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.top-blogger-name{
+    font-size: 20px;
+}
+.welcome-side-section {
+    position: sticky;
+    top: 100px;
+}
+.welcome-side-section .trending-title {
+  font-family: "Poppins", sans-serif;
+}
+.welcome-side-section .card-container {
+  max-width: 280px;
+  margin: 0 auto;
+  box-shadow: 2px 10px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.welcome-side-section .card {
+  padding: 8px;
+  border-radius: 12px;
+}
+.welcome-side-section .tag {
+  padding: 4px 8px;
+  border: #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  cursor: pointer;
+}
+.welcome-side-section .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.welcome-side-section .description {
+  font-size: 14px;
+  color: #7f8c98;
+  line-height: 150%;
+}
+.welcome-side-section .card-details {
+  padding: 16px 8px 8px 8px;
+  max-width: 100%;
+}
+.popular-tags {
+  margin-bottom: 12px;
+}
+.card-details p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+.post-owner{
+    text-align: center;
+    margin-top: 15px;
+}
+@media screen and (max-width: 1180px){
+    .welcome-side-section{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .welcome-side-section{
+        display: none;
+    }
+    .article-container{
+        grid-template-columns: 1fr;
+    }
+    .article-container .card-img{
+        height: 100%;
+    }
+}

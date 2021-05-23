@@ -1,0 +1,24 @@
+.btn-body {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #6c63ff;
+  margin: 0 auto;
+  text-decoration: none;
+  /* display: block; */
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.write-container{
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-top: 60px;
+}

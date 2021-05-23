@@ -1,0 +1,15 @@
+.bookmarks-body-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-right: 9%;
+    padding-left: 9%;
+  }
+  
+  @media screen and (max-width: 1180px) {
+  .bookmarks-body-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-right: 9%;
+      padding-left: 9%;
+    }
+  }

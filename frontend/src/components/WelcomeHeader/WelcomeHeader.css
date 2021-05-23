@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.welcome-header{
+    margin-top: 60px;
+}
+
+.welcome-gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 21px;
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-bottom: 4%;
+}
+.welcome-gridContainer img {
+  max-width: 100%;
+}
+.user-name{
+    /* color: #6c63ff; */
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.welcome-gridContainer .welcome-text {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 880px) {
+  .welcome-gridContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+  }
+  .welcome-gridContainer .welcome-text {
+    font-size: 38px;
+  }
+}
