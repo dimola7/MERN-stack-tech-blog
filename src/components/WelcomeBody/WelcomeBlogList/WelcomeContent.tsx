@@ -4,10 +4,8 @@ import { BsBookmarks } from 'react-icons/bs';
 import { BsBookmarksFill } from 'react-icons/bs';
 import ReactHtmlParser from 'react-html-parser';
 
-const WelcomeContent = ({title, content2, picture, bookmarked, id, article}:any) => {
-  
-  
-     
+const WelcomeContent = ({title, content2, picture, id, article}:any) => {
+   
       const [ Bookmark, setBookmark] = useState(true);
 
       const addToBookmarks = () => { 
@@ -38,7 +36,7 @@ const WelcomeContent = ({title, content2, picture, bookmarked, id, article}:any)
        </div>
        <div className="description">
         <h1 className="trending-title">{title}</h1>
-        {/* <h2 className="written-by"></h2> */}
+        <h2 className="written-by">By Arya Stark</h2>
         <div className="trending-blog-content">{ReactHtmlParser(content2)}</div>
         <div className="clicks">
          <div>

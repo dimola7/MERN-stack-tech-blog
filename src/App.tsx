@@ -24,7 +24,7 @@ function App() {
   const [copyRes, setCopyRes] = useState([]);
  
     useEffect(() => {
-        fetch("/articles").then(res => {
+        fetch("https://decablog.herokuapp.com/articles").then(res => {
             if (res.ok) {
                 return res.json()
             }
