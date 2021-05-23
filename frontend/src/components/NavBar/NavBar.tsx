@@ -1,7 +1,6 @@
 import { Nav } from "./NavBar.styles";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Search from "../Search/Search";
 import fancyShape from "../../images/big-black-five-petal-flower.svg";
 
 interface Props {
@@ -24,9 +23,6 @@ const navbar = (props: Props) => {
           <div className="nav-burger" onClick={props.toggle}>
             <FaBars />
           </div>
-          <ul className="search">
-            <Search />
-          </ul>
           <ul className="hello">
             <li>
               <Link className="nav-links" to="about">
@@ -34,13 +30,13 @@ const navbar = (props: Props) => {
               </Link>
             </li>
             <li>
-              <Link className="nav-links" to="signup">
+              <Link className="nav-links" to="welcome">
                 Sign Up
               </Link>
             </li>
           </ul>
           <nav className="nav-button">
-            <Link className="nav-button-link" to="signin">
+            <Link className="nav-button-link" to="welcome">
               Sign In
             </Link>
           </nav>

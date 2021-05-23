@@ -1,7 +1,7 @@
 import WelcomeNav from "../../components/Welcome-Nav/WelcomeNav";
 // import Footer from "../../components/Footer/Footer";
 import WelcomeHeader from "../../components/WelcomeHeader/WelcomeHeader";
-import WelcomeBody from "../../components/WecomeBody/WelcomeBody";
+import WelcomeBody from "../../components/WelcomeBody/WelcomeBody";
 import WelcomeSidebar from "../../components/WelcomeSidebar/WelcomeSidebar";
 
 // interface Props {

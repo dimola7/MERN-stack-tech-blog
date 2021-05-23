@@ -1,4 +1,4 @@
-import BookmarksSideSection from "../WecomeBody/WelcomeSideSection/WelcomeSideSection";
+import BookmarksSideSection from "../WelcomeBody/WelcomeSideSection/WelcomeSideSection";
 import BookmarksBlogList from "./BookmarksBlogList/BookmarksBlogList";
 import "./BookmarksBody.css";
 

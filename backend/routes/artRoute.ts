@@ -1,6 +1,5 @@
 import express, { Request, Response, NextFunction } from "express";
 import Article from "../models/artModel";
-// import Bookmarks from "../models/bookmarksModel";
 
 const router = express.Router();
 
@@ -18,8 +17,6 @@ router.route("/create").post((req: Request, res: Response) => {
 router.route("/articles").get((req: Request, res: Response) => {
   Article.find().then((foundArticles: any) => res.json(foundArticles));
 });
-
-
 
 router.route("/article/:id").get((req:Request, res:Response)=>{
   Article.findById(req.params.id)
@@ -57,7 +54,6 @@ router.put('/updatebookmark/:id', async (req, res) => {
   singleArticle.bookmark = !singleArticle.bookmark;
   await singleArticle.save();
 })
-
 
 // router.delete("/removebookmark/:id", async (req, res) => {
 //   let id = req.params.id;

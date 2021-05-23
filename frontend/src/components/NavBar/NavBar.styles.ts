@@ -75,9 +75,6 @@ export const Nav = styled.nav`
     }
     
     @media screen and (max-width: 768px){
-        .search{
-            display: none;
-        }
         .hello{
             padding: 0 !important;
             margin-left: 0 !important;

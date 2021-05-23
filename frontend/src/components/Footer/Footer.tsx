@@ -1,6 +1,6 @@
-import instagram from "../../assets/instagram.svg";
-import twitter from "../../assets/twitter.svg";
-import facebook from "../../assets/facebook.svg";
+import instagram from "../../images/instagram.svg";
+import twitter from "../../images/twitter.svg";
+import facebook from "../../images/facebook.svg";
 import fancyShape from "../../images/big-black-five-petal-flower.svg";
 
 import "./Footer.css";

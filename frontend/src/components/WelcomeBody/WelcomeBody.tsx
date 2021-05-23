@@ -1,6 +1,6 @@
 import WelcomeBlogList from "./WelcomeBlogList/WelcomeBlogList";
 import WelcomeSideSection from "./WelcomeSideSection/WelcomeSideSection";
-import ".//WelcomeBody.css";
+import "./WelcomeBody.css";
 
 const WelcomeBody = ({articles, setArticles, searchBlog, setSearchBlog}: any) => {
   return (
