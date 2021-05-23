@@ -20,7 +20,7 @@ const Trending = () => {
     }])
 
     useEffect(() => {
-        fetch("/articles").then(res => {
+        fetch("https://decablog.herokuapp.com/articles").then(res => {
             if (res.ok) {
                 return res.json()
             }
