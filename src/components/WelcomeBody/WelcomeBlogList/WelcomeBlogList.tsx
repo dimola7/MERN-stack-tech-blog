@@ -12,14 +12,11 @@ interface Article {
   bookmarked: boolean,
 }
 
-const WelcomeBlogList = ({articles, setArticles, searchBlog, setSearchBlog}: any) => {
+const WelcomeBlogList = ({articles}: any) => {
   const history = useHistory();
   const showCreatePostPage = () => {
     history.push("create");
   }
-  console.log("articles")
-
-
     const arr = [...articles]
 
   const picture: string[] = [picture1, picture2, picture3];
@@ -37,11 +34,8 @@ const WelcomeBlogList = ({articles, setArticles, searchBlog, setSearchBlog}: any
           <WelcomeContent article={article} id={i}  key={i} title={article.title} content2={article.content2} 
           picture={picture[i%picture.length]} bookmarked={article.bookmarked}  
       />  
-      {/* <EachArticle  article = {article} key = {i}/> */}
           </div>
           ))}
-          
-           
         </div>
         </>
     )
