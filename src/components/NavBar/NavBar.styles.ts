@@ -58,9 +58,9 @@ export const Nav = styled.nav`
     .nav-button-link{
         border-radius: 50px;
         background: #6C63FF;
+        color: #fff
         white-space: nowrap;
         padding: 10px 22px;
-        color: #fff;
         font-size: 16px;
         outline: none;
         border: none;
@@ -80,10 +80,13 @@ export const Nav = styled.nav`
             margin-left: 0 !important;
             display: none;
           }  
+          .nav-button-link{
+              color: #fff;
+          }
           .nav-burger{
                 display: block;
                 position: absolute;
-                top: 0;
+                top: -10px;
                 right: 0;
                 transform: translate(-100%, 60%);
                 font-size: 1.8rem;

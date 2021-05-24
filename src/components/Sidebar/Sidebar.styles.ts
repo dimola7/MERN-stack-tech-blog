@@ -37,9 +37,10 @@ export const SidebarMenu = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 80px);
     text-align: center;
+    padding-left: 0rem;
 
     @media screen and (max-width: 480px){
-        grid-template-rows: repeat(6, 60px);
+        grid-template-rows: repeat(3, 60px);
     }
 `
 export const SidebarLink = styled(LinkRouter)`

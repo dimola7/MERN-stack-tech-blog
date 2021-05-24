@@ -22,7 +22,8 @@ const WelcomeSidebar = (props: Props) => {
         <WelcomeSidebarMenu>
           <WelcomeSidebarLink to="about">About</WelcomeSidebarLink>
           <WelcomeSidebarLink to="bookmarks">Bookmarks</WelcomeSidebarLink>
-          <WelcomeSidebarLink to="">Dimola</WelcomeSidebarLink>
+          <WelcomeSidebarLink to="/profile">View profile</WelcomeSidebarLink>
+          <WelcomeSidebarLink to="/">Sign out</WelcomeSidebarLink>
         </WelcomeSidebarMenu>
       </WelcomeSidebarWrapper>
     </WelcomeSidebarContainer>
