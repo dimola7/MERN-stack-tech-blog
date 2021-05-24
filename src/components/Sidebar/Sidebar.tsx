@@ -14,12 +14,12 @@ const Sidebar = (props: Props) => {
                     <SidebarLink to="about">
                         About
                     </SidebarLink>
-                    <SidebarLink to="signup">
+                    <SidebarLink to="/welcome">
                         Sign Up
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoutes to="/signin">
+                    <SidebarRoutes to="/welcome">
                         Sign In
                     </SidebarRoutes>
                 </SideBtnWrap>
