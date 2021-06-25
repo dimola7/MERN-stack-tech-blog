@@ -14,7 +14,7 @@ const Header = () => {
             Read and share new perspectives on just about any topic. Everyone’s
             welcome. Learn more.
           </p>
-          <Link to="/welcome">
+          <Link to="/login">
             <button className="button">Get Started</button>
           </Link>
         </div>

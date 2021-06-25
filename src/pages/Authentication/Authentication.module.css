@@ -1,0 +1,10 @@
+.authBody{
+    background-color: #f5f6fa;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

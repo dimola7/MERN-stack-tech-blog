@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/home";
+import Authentication from "./pages/Authentication/Authentication";
 import Welcome from "./pages/Welcome/Welcome";
 import Bookmarks from "./pages/Bookmarks/Bookmarks";
 import Profile from "./pages/Profile/Profile";
@@ -8,7 +9,6 @@ import About from "./pages/WelcomeAbout/WelcomeAbout";
 import SingleArticle from "./components/WelcomeBody/WelcomeBlogList/Article"
 import CreatePost from "./components/CreatePost/CreatePost";
 import GetArticles from "./components/GetArticles/GetArticles";
-import Footer from "./components/Footer/Footer";
 
 interface Article {
   title: string,
@@ -71,6 +71,7 @@ setArticles(copyArticles)
         <Route path="/welcome" exact>
         <Welcome  toggle={toggle} isOpen ={isOpen} articles={articles} setArticles={setArticles} searchBlog={searchBlog} setSearchBlog={setSearchBlog} handleChange={handleChange}/>
         </Route>
+        <Route path="/login" exact render ={() => <Authentication />} />
         <Route path="/bookmarks" exact render ={() => <Bookmarks toggle={toggle} isOpen ={isOpen}  />} />
         <Route path="/about" exact render ={() => <About toggle={toggle} isOpen ={isOpen}  />} />
         <Route path="/profile" exact render ={() => <Profile toggle={toggle} isOpen ={isOpen}  />} />
@@ -78,7 +79,6 @@ setArticles(copyArticles)
         <Route path = "/articles/:id" exact component = {SingleArticle}/>
         <Route path="/articles" exact component={GetArticles}/>
       </Switch>
-      <Footer />
     </Router>
   );
 }

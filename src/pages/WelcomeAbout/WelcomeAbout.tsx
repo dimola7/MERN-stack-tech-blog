@@ -1,6 +1,7 @@
 import AboutNav from "../../components/Welcome-Nav/WelcomeNav";
 import AboutSidebar from "../../components/WelcomeSidebar/WelcomeSidebar";
 import AboutSvg from "../../images/undraw_Dev_focus.svg";
+import Footer from "../../components/Footer/Footer";
 import "./WelcomeAbout.css";
 
 interface Props {
@@ -33,6 +34,7 @@ const WelcomeAbout = (props: Props) => {
                     </p>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

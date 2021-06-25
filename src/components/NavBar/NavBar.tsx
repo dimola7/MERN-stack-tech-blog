@@ -30,13 +30,13 @@ const navbar = (props: Props) => {
               </Link>
             </li>
             <li>
-              <Link className="nav-links" to="welcome">
+              <Link className="nav-links" to="login">
                 Sign Up
               </Link>
             </li>
           </ul>
           <nav className="nav-button">
-            <Link className="nav-button-link" to="welcome">
+            <Link className="nav-button-link" to="login">
               Sign In
             </Link>
           </nav>

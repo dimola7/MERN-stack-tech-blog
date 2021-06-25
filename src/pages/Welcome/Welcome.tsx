@@ -1,5 +1,5 @@
 import WelcomeNav from "../../components/Welcome-Nav/WelcomeNav";
-// import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import WelcomeHeader from "../../components/WelcomeHeader/WelcomeHeader";
 import WelcomeBody from "../../components/WelcomeBody/WelcomeBody";
 import WelcomeSidebar from "../../components/WelcomeSidebar/WelcomeSidebar";
@@ -31,6 +31,7 @@ const {articles, setArticles, isOpen, toggle, searchBlog, setSearchBlog, handleC
       setArticles={setArticles} 
       searchBlog={searchBlog}
        setSearchBlog={setSearchBlog}/>
+       <Footer />
     </div>
   );
 };
